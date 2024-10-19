@@ -12,7 +12,7 @@ defineEmits(['agregar-carrito'])
 
 <template>
    <div class="card">
-      <img :src="'/public/img/'+producto.imagen+'.jpg'" :alt="producto.nombre">
+      <img :src="'img/'+producto.imagen+'.jpg'" :alt="producto.nombre">
       <div class="card-header">
          <h3>{{producto.nombre}}</h3>
          $<span>{{ producto.precio }}</span>
