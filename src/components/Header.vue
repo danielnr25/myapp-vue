@@ -75,7 +75,7 @@ const totalPagar = computed( () => {
                         <tbody>
                             <tr v-for="(producto) in carrito">
                                 <td>
-                                    <img :src="'/public/img/' + producto.imagen + '.jpg'" :alt="producto.nombre">
+                                    <img :src="'img/' + producto.imagen + '.jpg'" :alt="producto.nombre">
                                 </td>
                                 <td>{{ producto.nombre }}</td>
                                 <td>${{ producto.precio }}</td>
